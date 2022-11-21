@@ -12,6 +12,9 @@ export class GuideComponent implements OnInit {
   constructor(private dialogservice: DialogService) { }
 
   ngOnInit(): void {
+    let secondMessage = document.getElementById('secondMessage');
+    secondMessage?.style?.display = 'none';
+
   }
 
   openDialog(des: string){

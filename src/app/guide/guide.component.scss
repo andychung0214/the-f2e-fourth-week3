@@ -22,30 +22,53 @@
 }
 
 .spanMessage {
-	width: 30px;
-	height: 20px;
+	display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 15px 0px 16px 27px;
+gap: 10px;
 
-	/* White */
-
-	background: #ffffff;
-	transform: matrix(0, 1, 1, 0, 0, 0);
-	position: absolute;
+width: 20px;
+height: 152px;
 }
 
 .message {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	// display: flex;
+	// flex-direction: row;
+	// justify-content: center;
+	// align-items: center;
 	padding: 16px 24px;
 	gap: 10px;
 
-	width: 1098px;
+	// width: 1098px;
+	width: 80%;
 	height: 152px;
 
-	// position: absolute;
+	position: absolute;
+  left: 10%;
+
 	/* White */
 
 	background: #ffffff;
 	border-radius: 16px;
+}
+
+.second-message {
+	padding: 16px 24px;
+	gap: 10px;
+
+	// width: 1098px;
+	width: 80%;
+	height: 152px;
+
+	position: absolute;
+  left: 10%;
+
+	/* White */
+
+	background: #ffffff;
+	border-radius: 16px;
+
+  top: 40%;
 }

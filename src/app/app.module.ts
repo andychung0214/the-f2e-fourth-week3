@@ -10,6 +10,7 @@ import { GuideComponent } from './guide/guide.component';
 import { ButtonComponent } from './components/button/button.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DialogComponent } from './components/dialog/dialog.component';
+import { PokerCardComponent } from './components/poker-card/poker-card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DialogComponent } from './components/dialog/dialog.component';
     HomeComponent,
     GuideComponent,
     ButtonComponent,
-    DialogComponent
+    DialogComponent,
+    PokerCardComponent
   ],
   imports: [
     BrowserModule,

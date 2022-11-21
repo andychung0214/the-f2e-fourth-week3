@@ -1,0 +1,84 @@
+.aText {
+  position: absolute;
+left: 23.05%;
+right: 75.64%;
+top: 35.62%;
+bottom: 60.51%;
+
+// font-family: 'Lobster';
+font-family: 'Vigo';
+
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 30px;
+/* or 83% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+
+/* Black */
+
+color: #000000;
+}
+
+
+p.reverse {
+}
+
+.aText-reverse {
+  font-family: 'Vigo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 30px;
+  transform: rotateX(-180deg);
+
+}
+
+
+
+.spades {
+  position: absolute;
+left: 22.96%;
+right: 75.39%;
+top: 40.23%;
+bottom: 56.51%;
+
+/* Black */
+
+}
+
+.spades-down {
+  position: absolute;
+left: 34.5%;
+right: 63.85%;
+top: 61.46%;
+bottom: 35.28%;
+
+/* Black */
+
+// transform: rotate(-180deg);
+}
+
+.poker-area {
+  margin: 1%;
+}
+
+.pokerBorder {
+  position: relative;
+  // margin-left: 24%;
+  // margin-top: 24%;
+}
+
+.poker-area .pokerText {
+ position: absolute;
+ align-items: center;
+ top: 10%;
+    left: 1%;
+    white-space: break-spaces;
+    width: inherit;
+}
+

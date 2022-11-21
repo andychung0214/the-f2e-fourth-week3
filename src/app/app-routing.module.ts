@@ -1,3 +1,4 @@
+import { PokerCardComponent } from './components/poker-card/poker-card.component';
 import { GuideComponent } from './guide/guide.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path: 'guide',
     component: GuideComponent
+  },
+  {
+    path: 'poker-card',
+    component: PokerCardComponent
   },
   {
     path: '',

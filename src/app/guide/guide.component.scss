@@ -7,10 +7,12 @@
 }
 
 .item {
-	display: flex;
-	justify-content: center;
+	// display: flex;
+	// justify-content: flex-start;
 	align-items: center;
-	flex: 0.1;
+	// flex: 0.1;
+  // text-align: center;
+  // margin: 0 auto;
 }
 
 #tina {
@@ -21,7 +23,7 @@
 	top: 50px;
 }
 
-.spanMessage {
+.triangle {
 	display: flex;
 flex-direction: row;
 justify-content: flex-end;
@@ -45,7 +47,7 @@ height: 152px;
 	width: 80%;
 	height: 152px;
 
-	position: absolute;
+	position: relative;
   left: 10%;
 
 	/* White */

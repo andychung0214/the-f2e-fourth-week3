@@ -7,17 +7,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./guide.component.scss']
 })
 export class GuideComponent implements OnInit {
-  desc?:string;
+  desc?: string;
 
-  constructor(private dialogservice: DialogService) { }
-
-  ngOnInit(): void {
-    let secondMessage = document.getElementById('secondMessage');
-    secondMessage?.style?.display = 'none';
+  constructor(private dialogservice: DialogService) {
 
   }
 
-  openDialog(des: string){
+  ngOnInit(): void {
+
+  }
+
+  ngAfterViewInit() {
+    let secondMessage = document.getElementById('secondMessage');
+    if (secondMessage !== null && secondMessage !== undefined) {
+
+      secondMessage.style.display = 'none';
+    }
+  }
+
+  openDialog(des: string) {
     this.dialogservice.openDialog(this.desc);
   }
 }

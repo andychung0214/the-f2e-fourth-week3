@@ -1,0 +1,131 @@
+.title {
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  left: 50px;
+  top: 353px;
+
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* White */
+
+  color: #FFFFFF;
+}
+
+.desc {
+  background: #9C0700;
+  color: #FFFFFF;
+
+  position: absolute;
+  width: 516px;
+  height: 52px;
+  left: 382px;
+  top: 175px;
+
+  /* Red */
+
+  background: #9C0700;
+  /* White */
+
+  border: 5px solid #FFFFFF;
+  border-radius: 16px 16px 0px 0px;
+  text-align: center;
+
+}
+
+.desc p {
+  //   width: 258px;
+  // height: 42px;
+
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 42px;
+  /* identical to box height, or 210% */
+
+  // display: flex;
+  // align-items: center;
+
+  /* White */
+
+  color: #FFFFFF;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: 4px solid #FFFFFF;
+  border-radius: 30px;
+  position: absolute;
+  width: 794px;
+  height: 289px;
+  left: 243px;
+  top: 224px;
+}
+
+.flex-container .item {
+  margin-left: -23%;
+}
+
+.priority {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #000000;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+
+  position: absolute;
+  width: 516px;
+  height: 52px;
+  left: 382px;
+  top: 509px;
+
+  /* Black */
+
+  background: #000000;
+  /* White */
+
+  border: 5px solid #FFFFFF;
+  border-radius: 0px 0px 16px 16px;
+
+}
+
+.priority span {
+  width: 60px;
+  height: 42px;
+
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.img-dice {
+  position: absolute;
+  width: 98px;
+  height: 92px;
+  left: 68px;
+  top: 561px;
+}
+
+.img-chips {
+  position: absolute;
+  width: 202px;
+  height: 222px;
+  left: 972px;
+  top: 69px;
+}

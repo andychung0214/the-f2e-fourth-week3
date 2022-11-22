@@ -11,6 +11,8 @@ import { ButtonComponent } from './components/button/button.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DialogComponent } from './components/dialog/dialog.component';
 import { PokerCardComponent } from './components/poker-card/poker-card.component';
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
+import { MemberComponent } from './member/member.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { PokerCardComponent } from './components/poker-card/poker-card.component
     GuideComponent,
     ButtonComponent,
     DialogComponent,
-    PokerCardComponent
+    PokerCardComponent,
+    ToDoListComponent,
+    MemberComponent
   ],
   imports: [
     BrowserModule,

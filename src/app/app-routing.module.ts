@@ -1,3 +1,4 @@
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
 import { PokerCardComponent } from './components/poker-card/poker-card.component';
 import { GuideComponent } from './guide/guide.component';
 import { HomeComponent } from './home/home.component';
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'poker-card',
     component: PokerCardComponent
+  },
+  {
+    path: 'to-do-list',
+    component: ToDoListComponent
   },
   {
     path: '',

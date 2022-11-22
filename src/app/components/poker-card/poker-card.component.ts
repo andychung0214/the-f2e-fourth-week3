@@ -11,7 +11,6 @@ export class PokerCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.pokerText = '會員系統\n(登入、註冊、權限管理)';
   }
 
 }

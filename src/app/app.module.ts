@@ -13,6 +13,11 @@ import { DialogComponent } from './components/dialog/dialog.component';
 import { PokerCardComponent } from './components/poker-card/poker-card.component';
 import { ToDoListComponent } from './to-do-list/to-do-list.component';
 import { MemberComponent } from './member/member.component';
+import { ArrangeComponent } from './arrange/arrange.component';
+import { KnowProcessComponent } from './know-process/know-process.component';
+import { TestProcessComponent } from './test-process/test-process.component';
+import { FeedbackComponent } from './feedback/feedback.component';
+import { CompleteComponent } from './complete/complete.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +28,12 @@ import { MemberComponent } from './member/member.component';
     DialogComponent,
     PokerCardComponent,
     ToDoListComponent,
-    MemberComponent
+    MemberComponent,
+    ArrangeComponent,
+    KnowProcessComponent,
+    TestProcessComponent,
+    FeedbackComponent,
+    CompleteComponent
   ],
   imports: [
     BrowserModule,

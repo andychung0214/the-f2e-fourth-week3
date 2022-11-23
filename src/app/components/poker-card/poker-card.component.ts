@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class PokerCardComponent implements OnInit {
   @Input() pokerText?:string;
+  @Input() pokerNum?:string;
 
   constructor() { }
 

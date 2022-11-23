@@ -1,0 +1,41 @@
+
+<label class="title" for="">產品待辦清單</label>
+<label class="teamA" for="">開發 A 組<br>短衝待辦清單</label>
+<div class="flex-container">
+
+  <app-poker-card ngClass="item"
+              [pokerText]="'會員系統\n(登入、註冊、權限\n管理)'"
+              [pokerNum]="'8'">
+  </app-poker-card>
+  <app-poker-card ngClass="item"
+              [pokerText]="'後台職缺管理功能\n(資訊上架、下架、顯示應徵者資料)'"
+              [pokerNum]="'8'">
+  </app-poker-card>
+  <app-poker-card ngClass="item"
+              [pokerText]="'應徵者的線上履歷編輯器'"
+              [pokerNum]="'13'">
+  </app-poker-card>
+  <app-poker-card ngClass="item"
+              [pokerText]="'前台職缺列表\n(職缺詳細內容、點選可發送應徵意願)'"
+              [pokerNum]="'5'">
+  </app-poker-card>
+</div>
+<div class="img-dice">
+  <img src="assets/images/dice-red-four.png" alt="">
+</div>
+<div class="img-chips">
+  <img src="assets/images/twoChipsBuilding.png" alt="">
+</div>
+<div class="dropDownArea">
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+</div>
+<label class="score" for="">0/20</label>
+<label class="remark" for="">請把需求拖移到方框中(加總後不得超過20點)</label>
+
+<app-button [displayText]="'準備好了!\n開始Sprint'" [linkTarget]="'know-process'"></app-button>
+
+
+h

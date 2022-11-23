@@ -1,0 +1,229 @@
+.title {
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  left: 40px;
+  top: 168px;
+
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height, or 100% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* White */
+
+  color: #FFFFFF;
+}
+
+.teamA {
+  position: absolute;
+  width: 180px;
+  height: 90px;
+  left: 40px;
+  top: 440px;
+
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+
+  /* White */
+
+  color: #FFFFFF;
+}
+
+.dropDownArea {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 794px;
+  height: 289px;
+  left: 243px;
+  top: 344px;
+
+  /* White */
+
+  border: 4px solid #FFFFFF;
+  border-radius: 30px;
+}
+
+.dropDownArea .item:nth-child(1) {
+  position: absolute;
+  left: 22.34%;
+  right: 64.52%;
+  top: 51.39%;
+  bottom: 15.85%;
+
+  height: 235.85714721679688px;
+  width: 168.08152770996094px;
+  left: 286px;
+  top: 370px;
+  border-radius: 0px;
+
+
+
+  border: 2px dashed #FFFFFF;
+  margin-left: -35%;
+  margin-top: -44%;
+}
+
+.dropDownArea .item:nth-child(2) {
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 36.27%;
+  right: 50.62%;
+  top: 51.41%;
+  bottom: 15.87%;
+
+  /* White */
+
+  border: 2px dashed #FFFFFF;
+
+  /* White */
+
+  border: 2px dashed #FFFFFF;
+  height: 235.85714721679688px;
+  width: 168.08152770996094px;
+  border-radius: 0px;
+  margin-left: -10%;
+  margin-top: -15%;
+
+}
+
+.dropDownArea .item:nth-child(3) {
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 50.18%;
+  right: 36.71%;
+  top: 51.41%;
+  bottom: 15.87%;
+
+  /* White */
+
+  border: 2px dashed #FFFFFF;
+
+  /* White */
+
+  border: 2px dashed #FFFFFF;
+  height: 235.85714721679688px;
+  width: 168.08152770996094px;
+  border-radius: 0px;
+
+  margin-left: 2%;
+  margin-top: -15%;
+
+}
+
+.dropDownArea .item:nth-child(4) {
+  position: absolute;
+  left: 64.08%;
+  // right: 22.79%;
+  top: 51.39%;
+  // bottom: 15.85%;
+
+  /* White */
+
+  border: 2px dashed #FFFFFF;
+  height: 235.85714721679688px;
+  width: 168.08152770996094px;
+  border-radius: 0px;
+  margin-left: 12%;
+  margin-top: -15%;
+}
+
+.score {
+  position: absolute;
+  width: 84px;
+  height: 30px;
+  left: 1115px;
+  top: 500px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 30px;
+  /* identical to box height, or 75% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* White */
+
+  color: #FFFFFF;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  // border: 4px solid #FFFFFF;
+  border-radius: 30px;
+  position: absolute;
+  width: 794px;
+  height: 289px;
+  left: 243px;
+  top: 66px;
+}
+
+.flex-container .item {
+  margin-left: -23%;
+}
+
+
+.img-dice {
+  position: absolute;
+  width: 98px;
+  height: 92px;
+  left: 68px;
+  top: 561px;
+}
+
+.img-chips {
+  position: absolute;
+  width: 269px;
+  height: 277px;
+  left: 973px;
+  top: 167px;
+  z-index: 99;
+  // transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.remark {
+  position: absolute;
+  width: 396px;
+  height: 42px;
+  left: 453px;
+  top: 640px;
+
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 42px;
+  /* identical to box height, or 210% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* White */
+
+  color: #FFFFFF;
+}

@@ -1,1 +1,44 @@
-<p>test-process works!</p>
+<div class="hintArea flex-container">
+  <div class="hintPerson item">
+    <img id="tina" src="assets/images/tina.png" alt="">
+  </div>
+  <div class="triangle">
+  </div>
+  <div class="message item">
+
+    那你來試試看，在這經典的Surum流程圖中，這些流程分別代表哪一個會議呢？
+  </div>
+</div>
+
+<div class="hintArea flex-container">
+  <div class="hintPerson item">
+    <!-- <img id="tim" src="assets/images/tim.png" alt=""> -->
+  </div>
+  <div class="triangle">
+  </div>
+  <div class="message item">
+
+    <span class="redMark"></span>提示：請用拖移的方式將標籤拖移至對應的方框裡
+  </div>
+</div>
+
+<label class="redDesc" for="">每日站立會議(Daily Scrum)</label>
+
+<div class="yellow">
+  <label for="">短衝檢視會議(Sprint Review)</label>
+</div>
+<label class="yellowDesc" for="">短衝檢視會議(Sprint Review)</label>
+
+<div class="green">
+  <label for="">短衝自省會議(Sprint Retrospective)</label>
+</div>
+<label class="greenDesc" for="">短衝自省會議(Sprint Retrospective)</label>
+
+<div class="yellowBorder"></div>
+<div class="greenBorder"></div>
+
+<img src="assets/images/sprint.png" alt="">
+
+<app-button [displayText]="'完成'" [linkTarget]="'feedback'"></app-button>
+
+<div class="sprintText"><p>開發時間預估不準確，請後端下次改進，避免Delay到我。</p></div>

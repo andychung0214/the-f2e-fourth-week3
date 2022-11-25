@@ -1,1 +1,40 @@
-<p>feedback works!</p>
+<div class="hintArea flex-container">
+  <div class="hintPerson item">
+    <img id="tina" src="assets/images/allen.png" alt="">
+  </div>
+  <div class="triangle">
+  </div>
+  <div class="message item">
+
+    那你來試試看，在這經典的Surum流程圖中，這些流程分別代表哪一個會議呢？
+  </div>
+</div>
+
+<div class="text-left">
+  <p>做得好的地方</p>
+  <app-poker-card ngClass="item" [pokerNum]="'A'" [pokerText]="'這次我幫了很多人救火耶'"></app-poker-card>
+  <app-poker-card ngClass="item" [pokerNum]="'A'" [pokerText]="'大家在開發上都會互相 cover，讓任務都有準時在時間內完成。'"></app-poker-card>
+
+</div>
+
+<div class="text-right">
+  <p>有哪些可以做得更好？</p>
+  <app-poker-card ngClass="item" [pokerNum]="'A'" [pokerText]="'可以記錄這次的開發時間，讓預估團隊點數可以更精準。'"></app-poker-card>
+  <app-poker-card ngClass="item" [pokerNum]="'A'" [pokerText]="'開發時間預估不準確，請後端下次改進，避免Delay到我。'"></app-poker-card>
+
+</div>
+
+
+<div class="hintArea flex-container">
+  <div class="hintPerson item">
+    <!-- <img id="tim" src="assets/images/tim.png" alt=""> -->
+  </div>
+  <div class="triangle">
+  </div>
+  <div class="message item">
+
+    提示：請用拖移的方式將標籤拖移至對應的方框裡
+  </div>
+</div>
+
+<app-button [displayText]="'我想我了解了'" [linkTarget]="'complete'"></app-button>

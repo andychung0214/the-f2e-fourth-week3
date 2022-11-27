@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+.aText {
+  position: absolute;
+    left: 0%;
+    top: -30%;
+    padding: 46% 0px;
+
+// font-family: 'Lobster';
+font-family: 'Viga' !important;
+
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 30px;
+/* or 83% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+
+/* Black */
+
+color: #000000;
+}
+
+
+p.reverse {
+}
+
+.aText-reverse {
+  font-family: 'Vigo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 30px;
+  position: absolute;
+    left: 81%;
+    top: 47%;
+    padding: 46% 0px;
+}
+
+.aText-reverse p{
+  transform: rotateX(-180deg);
+  position: absolute;
+  left:20%;
+  top:40%;
+}
+
+
+
+.spades {
+  position: absolute;
+left: 1.96%;
+top: 53.23%;
+
+/* Black */
+
+}
+
+.spades-down {
+  position: absolute;
+left: 34.5%;
+right: 63.85%;
+top: 61.46%;
+bottom: 35.28%;
+
+/* Black */
+
+// transform: rotate(-180deg);
+}
+
+.poker-area {
+  margin: 1%;
+  position: absolute;
+}
+
+.pokerBorder {
+  position: relative;
+  // margin-left: 24%;
+  // margin-top: 24%;
+}
+
+.poker-area .pokerText {
+ position: absolute;
+ align-items: center;
+ top: 40%;
+    left: 1%;
+    white-space: break-spaces;
+    width: inherit;
+}
+

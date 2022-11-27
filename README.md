@@ -2,7 +2,7 @@
 
 此專案為參加[六角學院](https://www.hexschool.com/)所舉辦的[The F2E](https://2022.thef2e.com/)而生，至[作品列表](https://2022.thef2e.com/works)，採用所喜愛的設計稿，
 
-主題為[「Scrum 新手村」](https://2022.thef2e.com/news/week1)
+主題為[「Scrum 新手村」](https://2022.thef2e.com/news/week3)
 
 ## 使用技術
 

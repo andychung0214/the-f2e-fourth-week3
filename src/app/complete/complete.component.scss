@@ -18,6 +18,7 @@ h1 {
 	font-weight: 400;
 	font-size: 28px;
 	line-height: 56px;
+  text-align: center;
 	/* or 200% */
 
 	/* White */
@@ -131,4 +132,65 @@ h1 {
 
 .divButton:hover {
   background: #9C0700;
+}
+
+.img-coin1 {
+  position: absolute;
+width: 46px;
+height: 42px;
+left: 403px;
+top: 56px;
+}
+
+.img-coin2 {
+  position: absolute;
+width: 60px;
+height: 42px;
+left: 640px;
+top: 113px;
+}
+
+.img-coin3 {
+
+  position: absolute;
+  width: 83px;
+  height: 51px;
+  left: 59px;
+  top: 285px;
+
+}
+
+.img-coin4 {
+  position: absolute;
+  height: 329px;
+width: 653px;
+left: 0px;
+top: 391px;
+border-radius: 0px;
+}
+
+.img-coin5 {
+  position: absolute;
+width: 93px;
+height: 98px;
+left: 717px;
+top: 502px;
+}
+
+.img-coin6 {
+
+  position: absolute;
+  width: 56px;
+  height: 51px;
+  left: 1199px;
+  top: 348px;
+}
+
+
+.img-twoChipsBuilding2 {
+  position: absolute;
+width: 250px;
+height: 299px;
+left: 967px;
+top: 404px;
 }

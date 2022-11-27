@@ -9,7 +9,7 @@
     <div ngClass="sortable"  *ngIf="list" [sortablejs]="list" [sortablejsOptions]="options">
       <div ngClass="sortableItem" *ngFor="let l of list">
 
-        <app-poker-card ngClass="item" [listPokerCard]="l"></app-poker-card>
+        <app-list-poker-card ngClass="item" [listPokerCard]="l"></app-list-poker-card>
       </div>
     </div>
 

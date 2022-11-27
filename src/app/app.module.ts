@@ -18,6 +18,10 @@ import { KnowProcessComponent } from './know-process/know-process.component';
 import { TestProcessComponent } from './test-process/test-process.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { CompleteComponent } from './complete/complete.component';
+import { SortablejsModule } from 'ngx-sortablejs';
+import { ListPokerCardComponent } from './components/list-poker-card/list-poker-card.component';
+import { DragAndDropModule } from 'angular-draggable-droppable';
+
 
 @NgModule({
   declarations: [
@@ -33,13 +37,16 @@ import { CompleteComponent } from './complete/complete.component';
     KnowProcessComponent,
     TestProcessComponent,
     FeedbackComponent,
-    CompleteComponent
+    CompleteComponent,
+    ListPokerCardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatDialogModule
+    MatDialogModule,
+    SortablejsModule.forRoot({animation: 150}),
+    DragAndDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]

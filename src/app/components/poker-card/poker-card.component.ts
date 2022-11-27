@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import {Options} from 'sortablejs';
+import { Options } from 'sortablejs';
 import { listPokerCard } from 'src/app/models/listPokerCard.model';
 
 @Component({
@@ -10,16 +10,7 @@ import { listPokerCard } from 'src/app/models/listPokerCard.model';
 export class PokerCardComponent implements OnInit {
   @Input() pokerText?:string;
   @Input() pokerNum?:string;
-  @Input() listPokerCard?: listPokerCard;
 
-  options: Options = {
-    group: {
-      name: 'task',
-      put: true
-    },
-    revertOnSpill: true,
-    multiDrag: true
-  };
   constructor() { }
 
   ngOnInit(): void {

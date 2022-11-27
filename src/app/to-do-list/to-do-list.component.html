@@ -1,16 +1,24 @@
-
 <label class="title" for="">產品待辦清單</label>
 <div class="desc">
   <p>
-  用 拖移 的方式調整優先順序
+    用 拖移 的方式調整優先順序
   </p>
 </div>
 <div class="flex-container">
 
-<app-poker-card ngClass="item" [pokerNum]="'A'" [pokerText]="'會員系統\n(登入、註冊、權限管理)'" ></app-poker-card>
+    <div ngClass="sortable"  *ngIf="list" [sortablejs]="list" [sortablejsOptions]="options">
+      <div ngClass="sortableItem" *ngFor="let l of list">
+
+        <app-poker-card ngClass="item" [listPokerCard]="l"></app-poker-card>
+      </div>
+    </div>
+
+
+
+    <!-- <app-poker-card ngClass="item" [pokerNum]="'A'" [pokerText]="'會員系統\n(登入、註冊、權限管理)'" ></app-poker-card>
 <app-poker-card ngClass="item" [pokerNum]="'A'" [pokerText]="'應徵者的線上履歷編輯器'"></app-poker-card>
 <app-poker-card ngClass="item" [pokerNum]="'A'" [pokerText]="'前台職缺列表(職缺詳細內容、點選可發送應徵意願)'"></app-poker-card>
-<app-poker-card ngClass="item" [pokerNum]="'A'" [pokerText]="'後台職缺管理功能(資訊上架、下架、顯示應徵者資料)'"></app-poker-card>
+<app-poker-card ngClass="item" [pokerNum]="'A'" [pokerText]="'後台職缺管理功能(資訊上架、下架、顯示應徵者資料)'"></app-poker-card> -->
 </div>
 <div class="priority">
   <span>高 ←</span><span>優先權</span><span>→ 低</span>
@@ -22,5 +30,3 @@
   <img src="assets/images/chipsBuilding.png" alt="">
 </div>
 <app-button [displayText]="'完成'" [linkTarget]="'member'"></app-button>
-
-

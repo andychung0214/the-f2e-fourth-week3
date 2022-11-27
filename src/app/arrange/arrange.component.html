@@ -3,7 +3,29 @@
 <label class="teamA" for="">開發 A 組<br>短衝待辦清單</label>
 <div class="flex-container">
 
-  <app-poker-card ngClass="item"
+   <!-- <div mwlDraggable (dragEnd)="dragEnd($event)">Drag me!</div>
+    <div mwlDroppable (drop)="this.droppedData = $event.dropData">
+      <span [hidden]="droppedData">Drop here</span>
+      <span [hidden]="!droppedData"
+        >Item dropped here with data: "{{ droppedData }}"!</span
+      >
+    </div> -->
+
+    <div mwlDroppable (drop)="this.droppedData = $event.dropData">
+      <span [hidden]="droppedData">Drop here</span>
+      <span [hidden]="!droppedData"
+        >Item dropped here with data: "{{ droppedData }}"!</span
+      >
+
+
+  <div ngClass="sortable"  *ngIf="list" [sortablejs]="list" [sortablejsOptions]="options">
+      <div ngClass="sortableItem" *ngFor="let l of list">
+
+        <app-poker-card ngClass="item" [listPokerCard]="l"></app-poker-card>
+      </div>
+    </div>
+
+  <!-- <app-poker-card ngClass="item"
               [pokerText]="'會員系統\n(登入、註冊、權限\n管理)'"
               [pokerNum]="'8'">
   </app-poker-card>
@@ -18,7 +40,7 @@
   <app-poker-card ngClass="item"
               [pokerText]="'前台職缺列表\n(職缺詳細內容、點選可發送應徵意願)'"
               [pokerNum]="'5'">
-  </app-poker-card>
+  </app-poker-card> -->
 </div>
 <div class="img-dice">
   <img src="assets/images/dice-red-four.png" alt="">
